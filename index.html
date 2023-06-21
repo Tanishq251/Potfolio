@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">TanishQ</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>                
+                <li><a href="#contact">Contact</a></li>                
+            </ul>
+            
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">TanishQ</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills"onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>                
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Portfolio/tani6.png" alt="Tani">
+        </div>
+        <div class="section__text">
+            <p class="section_text__p1">Hello, I'm</p>
+            <h1 class="title">TanishQ Rachamalla</h1>
+            <p class="section__text__p2">a Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('http://bit.ly/tanishq_cv')">Download CV</button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact me </button>
+            </div>
+            <div id="socials-container">
+                <img src="./Portfolio/linkedin2.png" alt="Linkedin"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/tanishq-rachamalla-5a759b234'">
+
+                <img src="./Portfolio/github.png" alt="Github"
+                class="icon" onclick="location.href='https://github.com/Tanishq251'">
+
+                <img src="./Portfolio/insta3.png" alt="Instagram"
+                class="icon" onclick="location.href='https://www.instagram.com/tanishq.rachamalla/?hl=en'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h2 class="title">About Me</h2>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Portfolio/about.jpg" alt="About-pic"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p>I'm Tanishq, currently pursuing my 2/4 Bachelors of Technology in Information Technology at <a href="vrsiddhartha.ac.in" class="about-links">@VRSEC</a>. <br><br>I am a passionate and skilled coder with a deep love for programming and problem-solving. With a solid foundation in various programming languages and frameworks, I thrive on transforming complex ideas into elegant and efficient code.
+                    <br><br>
+                    I enjoy the thrill of competition and the opportunity to measure my skills against other talented coders. Participating in coding contests <a href="https://www.codechef.com/users/tanishq165" class="about-links">@codechef</a> and <a href="https://www.hackerrank.com/tanishqrachamal1?hr_r=1" class="about-links">@hackerrank</a> has not only improved my coding efficiency but has also taught me the value of time management, adaptability, and performing under pressure. <br><br>
+                    When I'm not busy coding or exploring the world of technology, you can often find me engaging in my favorite sports, such as Badminton, Football, Kabbadi and Spending time with friends.In addition to these I am a avid fan of webseries to see my series marathon <a href="https://www.tvtime.com/en/user/50445773/profile" class="about-links">@TVTIME</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h2 class="title">Skills</h2>
+        <div class="skill-details-containers">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="skills-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Portfolio/html-1.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Portfolio/javascript-1.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Java Script</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Portfolio/css-3.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-containers">
+                    <h2 class="skills-sub-title">Programming languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="c-1.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>C</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Portfolio/c.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>C++</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+
+
+                        <article>
+                            <img src="./Portfolio/python-4.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Portfolio/java.png" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="skills-sub-title">Industrial</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Portfolio/excel.png" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Excel</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Portfolio/word.png" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Word</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+
+
+                        <article>
+                            <img src="./Portfolio/ppt.png" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Power Point</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <p class="section__text__p1">To Know My</p>
+        <h2 class="title">Achievements</h2>
+        <div class="achievements-container">
+            <div class="details-containers-2">
+                <h2 class="skills-sub-title-2">2nd Prize</h2>
+                <div class="article-container-2">
+                    <article>
+                        <img src="./Portfolio/trophy.jpg" alt="prize" class="icon"/>
+                        <div>
+                            <h3>Ideathon</h3>
+                            <p>Participated in IDEATHON at Vrsec. Presented a ppt on traffic controlling system through the satellites. </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="details-containers-2">
+                <h2 class="skills-sub-title-2">Innovation</h2>
+                <div class="article-container-2">
+                    <article>
+                        <img src="./Portfolio/idea.jpg" alt="prize" class="icon"/>
+                        <div>
+                            <h3>Pet Monitoring System</h3>
+                            <p>Presented the Prototype in Our College on Innovation day. It keeps tracking the health and monitors the pet</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h2 class="title">Contact</h2>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Portfolio/mail.jpg" alt="mail" class="icon contact-icon"/>
+                <p>tanishqrachamalla12@gmail.com</p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Portfolio/contact.jpg" alt="contact" class="icon contact-icon"/>
+                <p>+91 8074463612</p>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#achievements">Achievements</a></li>                
+                    <li><a href="#contact">Contact</a></li>                
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 TanishQ Rachamalla. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
